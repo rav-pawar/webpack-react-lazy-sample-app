@@ -2,6 +2,23 @@
 
 This repository contains a minimal React application bundled with **webpack**. The app demonstrates how to lazy load a component using `React.lazy` and `React.Suspense`.
 
+## Prerequisites
+
+This project requires Node.js and npm. If they are not installed, download the LTS release from [nodejs.org](https://nodejs.org/). You can also install via [nvm](https://github.com/nvm-sh/nvm):
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+nvm install --lts
+nvm use --lts
+```
+
+Confirm installation with:
+
+```bash
+node --version
+npm --version
+```
+
 ## Setup
 
 Install dependencies:
